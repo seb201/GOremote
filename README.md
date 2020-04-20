@@ -14,11 +14,25 @@ Usefull hint when you compile the iOS app:
   3. cd wifi-car-esp8266/ios
   4. pod install
   5. open xcode and open another project and select : wifi-car-esp8266/ios/wificaresp8266.xcworkspace
-  6. You can look here for more information how to sideload Apps for iOS 
+  6. You can look here for more information how to sideload Apps for iOS:
      https://beebom.com/how-to-sideload-apps-iphone-ios-10-without-jailbreak/
 
 Sourcecode: https://github.com/lacour-vincent/wifi-car-esp8266
 
 # Deutsch
 # GOremote (Arbeit noch nicht abgeschlossen)
-Dies ist ein Projekt, um fernsteuerbare RC Autos, Boote oder andere Fahrzeuge kostengünstig und einfach fernsteuerbar zu machen. Hauptbestandteil ist ein ESP32 mit einer TB6612FNG Motorplatine. An die Motorplatine lassen sich bis zu zwei Gleichstrommotoren anschließen. Als Fernsteuerung dient ein Odroid GO, der besser bekannt ist als GameBoy Emulator, allerdings auch ein ESP32 im inneren besitzt. 
+Dies ist ein Projekt, um fernsteuerbare RC Autos, Boote oder andere Fahrzeuge kostengünstig und einfach fernsteuerbar zu machen. Hauptbestandteil ist ein ESP32 mit einer TB6612FNG Motorplatine. An die Motorplatine lassen sich bis zu zwei Gleichstrommotoren anschließen. Als Fernsteuerung dient ein Odroid GO, der besser bekannt ist als GameBoy Emulator, allerdings auch ein ESP32 im inneren besitzt. Über das Steuerkreuz lässt sich so das Fahrzeug bedienen. Die Kommunikation findet über WLan statt. Ein Reichweiteten Test steht noch aus.
+
+# iOS und Android App
+Wer kein Odroid GO besitzt (ca. 40€) kann auch eine einfache App verwenden.
+App für Android: https://play.google.com/store/apps/details?id=com.lacour.vincent.wificaresp8266
+App für iOS: https://github.com/lacour-vincent/wifi-car-esp8266
+Vor dem compilieren der iOS App müss folgendes installiert worden sein:
+  1. install https://cocoapods.org/
+  2. cd wifi-car-esp8266/ios
+  4. pod install
+  5. open xcode and open another project and select : wifi-car-esp8266/ios/wificaresp8266.xcworkspace
+  6. Hier gibt es mehr Informationen zum sideloaden von iOS Apps:
+     https://beebom.com/how-to-sideload-apps-iphone-ios-10-without-jailbreak/
+
+Quellcode: https://github.com/lacour-vincent/wifi-car-esp8266
