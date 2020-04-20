@@ -21,7 +21,8 @@ Sourcecode: https://github.com/lacour-vincent/wifi-car-esp8266
 
 # Deutsch
 # GOremote (Arbeit noch nicht abgeschlossen)
-Dies ist ein Projekt, um fernsteuerbare RC Autos, Boote oder andere Fahrzeuge kostengünstig und einfach fernsteuerbar zu machen. Hauptbestandteil ist ein ESP32 mit einer TB6612FNG Motorplatine. An die Motorplatine lassen sich bis zu zwei Gleichstrommotoren anschließen. Als Fernsteuerung dient ein Odroid GO, der besser bekannt ist als GameBoy Emulator, allerdings auch ein ESP32 im inneren besitzt. Über das Steuerkreuz lässt sich so das Fahrzeug bedienen. Die Kommunikation findet über WLan statt. Ein Reichweiteten Test steht noch aus.
+Dies ist ein Projekt, um fernsteuerbare RC Autos, Boote oder andere Fahrzeuge kostengünstig und einfach fernsteuerbar zu machen. Hauptbestandteil ist ein ESP32 (ca. 6-8€)mit einer TB6612FNG Motorplatine (ca. 5€). An die Motorplatine lassen sich bis zu zwei Gleichstrommotoren anschließen. Als Fernsteuerung dient ein Odroid GO, der besser bekannt ist als GameBoy Emulator, allerdings auch ein ESP32 im inneren besitzt. Über das Steuerkreuz lässt sich so das Fahrzeug bedienen. Die Kommunikation findet über WLan statt. Ein Reichweiteten Test steht noch aus. Sonderfunktionen sind ebenfalls nutzbar, wie z.B. Licht an/aus.
+Eine Integration von Servomotoren kommt später.
 
 # iOS und Android App
 Wer kein Odroid GO besitzt (ca. 40€) kann auch eine einfache App verwenden.
@@ -36,3 +37,7 @@ Vor dem compilieren der iOS App müss folgendes installiert worden sein:
      https://beebom.com/how-to-sideload-apps-iphone-ios-10-without-jailbreak/
 
 Quellcode: https://github.com/lacour-vincent/wifi-car-esp8266
+
+# Installation
+Odroid GO:
+Entweder den Quellcode runterladen und mit der Arduino IDE selber compilieren oder was ich empfelen würde, einfach die Firmware runterladen, auf die microSD Karte kopieren, den Odroid GO starten und dabei die B-Taste gedrückt halten nun die Firmware auswählen und den Start-Knopf drücken.
