@@ -29,7 +29,7 @@ Wer kein Odroid GO besitzt (ca. 40€) kann auch eine einfache App verwenden.
 App für Android: https://play.google.com/store/apps/details?id=com.lacour.vincent.wificaresp8266
 App für iOS: https://github.com/lacour-vincent/wifi-car-esp8266
 Vor dem compilieren der iOS App müss folgendes installiert worden sein:
-  1. install https://cocoapods.org/
+  1. installieren Sie https://cocoapods.org/
   2. cd wifi-car-esp8266/ios
   4. pod install
   5. open xcode and open another project and select : wifi-car-esp8266/ios/wificaresp8266.xcworkspace
